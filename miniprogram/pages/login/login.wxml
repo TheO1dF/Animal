@@ -1,0 +1,7 @@
+<view class="container">
+  <button class="avatar-wrapper" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+    <image class="avatar" src="{{avatarUrl}}"></image>
+  </button>
+  <input type="nickname" class="input-nickname" placeholder="请输入昵称" bindinput="onInputNickname" bindblur="onBlurNickname" />
+  <button class="btn-login" bindtap="onLoginButtonTap">一键登录</button>
+</view>

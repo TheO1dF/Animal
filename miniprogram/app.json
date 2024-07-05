@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/game/game"
+  ],
+  "window": {
+    "navigationBarTitleText": "斗兽牌",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black"
+  }
+}
